@@ -54,7 +54,6 @@ subnet 192.168.1.0 netmask 255.255.255.0 {
   option domain-name-servers 8.8.8.8, 8.8.4.4;
   default-lease-time 600;
   max-lease-time 7200;
-  option www-server 192.168.1.11;
   option tftp-server-name "http://192.168.1.11/app/provision/?mac=$MA";
 }
 ```
